@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>form</title>
+        <h2>Student Registration Form</h2>
+        <form action="https://mail.google.com/mail/u/0/#inbox" method="post">
+            <label for="firstname">First Name:</label>
+            <input type="text" name="firstname" required>
+            <br>
+            <label for="lastname">Last Name:</label>
+            <input type="text" name="lastname" required>
+            <br>
+            <label for="email">email:</label>
+            <input type="email" name="email" required>
+            <br>
+            <label for="phone">Mobile No.</label>
+            <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            <br>
+            <label for="addresss">Address:</label>
+            <input type="address" name="address" required>
+            <br>
+            <label for="country">Country</label>
+            <select id="country" required>
+                <option value="" disabled selected hidden>Select Country</option>
+                <option value="1">India</option>
+                <option value="2">Japan</option>
+                <option value="3">America</option>
+            </select>
+            <br>
+            <input type="submit" name="Submit">
+            <input type="reset" name="Reset">
+        </form>
+    </head>
+</html>
